@@ -1,0 +1,171 @@
+.border-flex
+{
+/*	border : 2px solid red;
+*/	font-family: sans-serif;
+}
+
+.txt
+{
+	padding: 10px;
+}
+
+.bouton
+{
+	padding: 10px;
+	font-size: 1em;
+	background: #f8f9fa;
+	border-radius: 5px;
+}
+
+#RechercheInput
+{
+	width: 500px ;
+	border : 0px ;
+	font-family: sans-serif;
+	outline: none;
+}
+
+#LogoGG
+{
+	width: 275px;
+	min-width: 150px;
+}
+
+#LogoInit
+{
+	width: 2.5em;
+	border-radius: 20px;
+}
+
+#LogoPts
+{
+	width: 3em;
+}
+
+#LogoMic
+{
+	width: 1.5em;
+}
+
+#LogoLoupe
+{
+	width: 1.5em;
+}
+
+#Feuille
+{
+	width: 0.9em;
+	padding-right: 1px;
+}
+
+#MainFrame
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 100vh;
+}
+
+#Header
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end ;
+	height: 50px;
+	width: 100%;
+	color: #3c4043;
+	font-size: 0.8em;
+}
+
+#Recherche
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around ;
+	width: 600px;
+	transform: translateY(-100px);
+	color: #3c4043;
+	font-size: 0.95em;
+}
+
+#Recherche-L3
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around ;
+	width: 50%;
+}
+
+#ChampRecherche
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	border : 1px solid #EEEEEE;
+	border-radius: 20px;
+	width: 90%;
+	min-width: 150px;
+	margin: 20px;
+	padding: 10px;
+}
+
+#Footer
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around ;
+	width: 100%;
+	color: rgba(0,0,0,.54);
+	background: #f2f2f2;
+}
+
+#FooterTop
+{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 10px;
+	width: 95%;
+	font-size: 0.95em;
+}
+
+#FooterBot
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between ;
+	width: 95%;
+	padding: 10px;
+	font-size: 0.9em;
+}
+
+#FooterBotGche
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between ;
+	width: 500px;
+}
+
+#NeutreCO2
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#FooterBotDte
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between ;
+	width: 500px;
+}
